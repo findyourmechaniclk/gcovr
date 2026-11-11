@@ -3,6 +3,7 @@ name: CI build and test
 # Schema: https://json.schemastore.org/github-action.json
 
 on:
+  workflow_dispatch:
   workflow_call:
     inputs:
       container:
